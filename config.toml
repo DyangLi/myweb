@@ -18,11 +18,11 @@ paginate = 10
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "Clean and minimal personal [blog theme for Hugo](https://github.com/vividvilla/ezhil)"
+    subtitle = "Personal website for Dongyang Li"
     # Content types which are included in home page recent posts list.
     mainSections = ["posts"]
     # Content types which are excludes Disqus comments.
-    disableDisqusTypes = ["page"]
+    disableDisqusTypes = ["page", "posts"]
     # If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
     featherIconsCDN = true
 
