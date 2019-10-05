@@ -1,32 +1,21 @@
-baseURL = "https://dongyangli.netlify.com/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My personal blog"
+title = "Ezhil"
 theme = "ezhil"
+paginate = 5
 
-# Enable syntax highlighting.
 pygmentsstyle = "vs"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-# Your Google analytics code.
 googleAnalytics = "UA-123-45"
-# Your Disqus sortname.
 disqusShortname = "localhost"
 
-# Number of posts to show in recent posts list (Optional). Defaults to 10.
-paginate = 10
-
 [params]
-    # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "Personal website for Dongyang Li"
-    # Content types which are included in home page recent posts list.
-    mainSections = ["page"]
-    # Content types which are excludes Disqus comments.
-    disableDisqusTypes = ["page"]
-    # If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
-    featherIconsCDN = true
+	subtitle = "Clean and minimal personal [blog theme for Hugo](https://github.com/vividvilla/ezhil)"
+	disableDisqusTypes = ["page", "post"]
+	featherIconsCDN = true
 
-# Main menu which appears below site header.
 [[menu.main]]
 name = "Home"
 url = "/"
@@ -34,7 +23,7 @@ weight = 1
 
 [[menu.main]]
 name = "All posts"
-url = "/page"
+url = "/posts"
 weight = 2
 
 [[menu.main]]
@@ -47,8 +36,6 @@ name = "Tags"
 url = "/tags"
 weight = 4
 
-# Social media links which shows up on site header.
-# Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
 [[params.social]]
 name = "Github"
 icon = "github"
@@ -59,6 +46,10 @@ name = "Twitter"
 icon = "twitter"
 url = "https://twitter.com/gohugoio"
 
-# Enable tags.
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
 [taxonomies]
    tag = "tags"
