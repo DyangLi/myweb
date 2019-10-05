@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ezhil</title>
-    <link>http://example.org/</link>
+    <link>https://dongyangli.netlify.com/</link>
     <description>Recent content on Ezhil</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 04 Oct 2019 16:29:11 -0700</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dongyangli.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test</title>
-      <link>http://example.org/page/test/</link>
+      <link>https://dongyangli.netlify.com/page/test/</link>
       <pubDate>Fri, 04 Oct 2019 16:29:11 -0700</pubDate>
       
-      <guid>http://example.org/page/test/</guid>
+      <guid>https://dongyangli.netlify.com/page/test/</guid>
       <description>This is a test page type.</description>
     </item>
     
