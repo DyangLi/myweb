@@ -17,8 +17,8 @@
       <pubDate>Fri, 04 Oct 2019 16:29:11 -0700</pubDate>
       
       <guid>https://dongyangli.netlify.com/page/test/</guid>
-      <description>This is a test page type. $\Sigma_a$
-$\rm\LaTeX$</description>
+      <description>This is a test page type. \(\rm\LaTeX\)
+Ensues preamble.</description>
     </item>
     
   </channel>
