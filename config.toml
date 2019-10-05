@@ -20,9 +20,9 @@ paginate = 10
     # Blog subtitle which appears below blog title. Supports markdown.
     subtitle = "Personal website for Dongyang Li"
     # Content types which are included in home page recent posts list.
-    mainSections = ["posts"]
+    mainSections = ["page"]
     # Content types which are excludes Disqus comments.
-    disableDisqusTypes = ["page", "posts"]
+    disableDisqusTypes = ["page"]
     # If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
     featherIconsCDN = true
 
@@ -34,7 +34,7 @@ weight = 1
 
 [[menu.main]]
 name = "All posts"
-url = "/posts"
+url = "/page"
 weight = 2
 
 [[menu.main]]
