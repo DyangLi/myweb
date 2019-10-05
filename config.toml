@@ -1,4 +1,4 @@
-baseURL = "https://dongyangli.netlify.com/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Ezhil"
 theme = "ezhil"
@@ -8,8 +8,8 @@ pygmentsstyle = "vs"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-googleAnalytics = ""
-disqusShortname = ""
+googleAnalytics = "UA-123-45"
+disqusShortname = "localhost"
 
 [params]
 	subtitle = "Clean and minimal personal [blog theme for Hugo](https://github.com/vividvilla/ezhil)"
